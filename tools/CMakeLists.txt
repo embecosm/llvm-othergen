@@ -14,6 +14,9 @@ else()
   ignore_llvm_tool_subdirectory(llvm-shlib)
 endif()
 
+# SC: Add OtherGen
+add_llvm_tool_subdirectory(llvm-othergen)
+
 add_llvm_tool_subdirectory(opt)
 add_llvm_tool_subdirectory(llvm-as)
 add_llvm_tool_subdirectory(llvm-dis)
