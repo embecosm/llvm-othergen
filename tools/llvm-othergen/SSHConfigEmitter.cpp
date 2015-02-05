@@ -104,7 +104,7 @@ void SSHConfigEmitter::EmitSSHConfig(Record *Cfg, raw_ostream &O,
     O << "\n";
   }
   EmitConditionalString(User);
-  EmitConditionalString(Host);
+  EmitConditionalString(HostName);
   EmitConditionalInt(Port);
   EmitConditionalString(IdentityFile);
   EmitConditionalString(ProxyCommand);
