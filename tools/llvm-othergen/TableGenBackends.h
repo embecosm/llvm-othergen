@@ -62,22 +62,8 @@ namespace llvm {
 class raw_ostream;
 class RecordKeeper;
 
-void EmitIntrinsics(RecordKeeper &RK, raw_ostream &OS, bool TargetOnly = false);
-void EmitAsmMatcher(RecordKeeper &RK, raw_ostream &OS);
-void EmitAsmWriter(RecordKeeper &RK, raw_ostream &OS);
-void EmitCallingConv(RecordKeeper &RK, raw_ostream &OS);
-void EmitCodeEmitter(RecordKeeper &RK, raw_ostream &OS);
-void EmitDAGISel(RecordKeeper &RK, raw_ostream &OS);
-void EmitDFAPacketizer(RecordKeeper &RK, raw_ostream &OS);
-void EmitDisassembler(RecordKeeper &RK, raw_ostream &OS);
-void EmitFastISel(RecordKeeper &RK, raw_ostream &OS);
-void EmitInstrInfo(RecordKeeper &RK, raw_ostream &OS);
-void EmitPseudoLowering(RecordKeeper &RK, raw_ostream &OS);
-void EmitRegisterInfo(RecordKeeper &RK, raw_ostream &OS);
-void EmitSubtarget(RecordKeeper &RK, raw_ostream &OS);
 void EmitMapTable(RecordKeeper &RK, raw_ostream &OS);
-void EmitOptParser(RecordKeeper &RK, raw_ostream &OS);
-void EmitCTags(RecordKeeper &RK, raw_ostream &OS);
+void EmitSSHConfig(RecordKeeper &K, raw_ostream &OS);
 
 } // End llvm namespace
 
