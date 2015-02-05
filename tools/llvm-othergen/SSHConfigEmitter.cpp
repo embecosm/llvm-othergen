@@ -111,6 +111,7 @@ void SSHConfigEmitter::EmitSSHConfig(Record *Cfg, raw_ostream &O,
   EmitConditionalString(PreferredAuthentications);
   EmitConditionalString(Compression);
   EmitConditionalInt(ServerAliveInterval);
+  O << "\n";
 }
 
 namespace llvm {
