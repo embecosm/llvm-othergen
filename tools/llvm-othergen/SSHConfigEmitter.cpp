@@ -26,7 +26,6 @@ static void emitSSHHeader(raw_ostream &OS) {
   OS << "#            \"#     \"# #    #        #\n";
   OS << "#        \"mmm#\" \"mmm#\" #    #        #\n";
   OS << "#                                    #\n";
-  OS << "#   Simon Cook's Global SSH Config   #\n";
   OS << "#(TableGen'erated file, do not edit!)#\n";
   OS << "#        (Edit ssh.td instead)       #\n";
   OS << "######################################\n";
